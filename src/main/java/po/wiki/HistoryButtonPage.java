@@ -1,4 +1,4 @@
-package po;
+package po.wiki;
 import base.method.BaseMethod;
 import org.openqa.selenium.By;
 

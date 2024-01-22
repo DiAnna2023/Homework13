@@ -1,14 +1,14 @@
 import listeners.RetryAnalyzer;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import po.ArticlePage;
-import po.FirstGeographyPage;
-import po.HistoryButtonPage;
-import po.SearchPage;
+import po.wiki.ArticlePage;
+import po.wiki.FirstGeographyPage;
+import po.wiki.HistoryButtonPage;
+import po.wiki.SearchPage;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 
-public class MainClassTest extends BaseTest {
+public class WikiTest extends BaseTest {
 
    // private static final By historyButton = By.xpath("//input[@ id='searchButton']");
    //private static final By searchInput = By.xpath("//input[@ id='ooui-php-1']");

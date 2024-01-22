@@ -12,10 +12,10 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <seleniun.version>3.141.59</seleniun.version>
+        <seleniun.version>4.15.0</seleniun.version>
         <manager.version>5.6.1</manager.version>
         <testng.version>7.8.0</testng.version>
-        <assertJ.version>3.25.1</assertJ.version>
+        <assertJ.version>3.22.0</assertJ.version>
     </properties>
 
     <dependencies>
@@ -24,10 +24,17 @@
             <artifactId>selenium-java</artifactId>
             <version>${seleniun.version}</version>
         </dependency>
+
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${manager.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.testng</groupId>

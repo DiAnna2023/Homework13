@@ -16,6 +16,7 @@
         <manager.version>5.6.1</manager.version>
         <testng.version>7.8.0</testng.version>
         <assertJ.version>3.22.0</assertJ.version>
+        <selenide.version>7.0.4</selenide.version>
     </properties>
 
     <dependencies>
@@ -48,5 +49,11 @@
             <version>${assertJ.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>${selenide.version}</version>
+        </dependency>
+
     </dependencies>
 </project>

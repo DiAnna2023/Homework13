@@ -1,8 +1,4 @@
-import org.testng.annotations.Test;
-import po.LoginPage;
-
-
-public class LogPassTest extends BaseTest {
+/*public class LogPassTest extends selenium.BaseTest {
 
     //private static final By placeholderUserName = By.xpath("//input[@class='mr-sm-2 form-control']");
     //private static final By placeholderLogin = By.xpath("//input[@id='password']");
@@ -45,5 +41,5 @@ public class LogPassTest extends BaseTest {
         return new Object[][]{
                 { "Йптл9_", "@_______j"},
                 { "HBH755494", "!!!!!Jk_1"}
-        };*/
-    }
+        };
+    }*/

@@ -1,4 +1,4 @@
-package api.dto.response;
+package api.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,11 +10,10 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class UserResponse {
+public class UserDto {
 
-    private Object token;
-    private Object expires;
-    private Object status;
-    private Object result;
+    private String userName;
+    private String password;
+
 
 }

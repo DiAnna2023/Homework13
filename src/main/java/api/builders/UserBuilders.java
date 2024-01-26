@@ -1,12 +1,13 @@
-package api.step;
+package api.builders;
 
-import api.dto.request.UserRequest;
+import api.dto.request.UserDto;
+
 
 
 public class UserBuilders {
 
-    public UserRequest userDefaultBuilder(){
-        return UserRequest.builder()
+    public UserDto userDefaultBuilder(){
+        return UserDto.builder()
                 .userName("User20")
                 .password("Autodoc1!")
                 .build();
